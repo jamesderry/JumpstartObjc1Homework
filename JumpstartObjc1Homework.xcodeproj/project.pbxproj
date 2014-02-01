@@ -10,6 +10,7 @@
 		D0CFB939189D68D600C0617B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CFB938189D68D600C0617B /* Foundation.framework */; };
 		D0CFB93C189D68D600C0617B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB93B189D68D600C0617B /* main.m */; };
 		D0CFB940189D68D600C0617B /* JumpstartObjc1Homework.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0CFB93F189D68D600C0617B /* JumpstartObjc1Homework.1 */; };
+		D0CFB948189D694700C0617B /* VehicleDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB947189D694700C0617B /* VehicleDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		D0CFB93B189D68D600C0617B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0CFB93E189D68D600C0617B /* JumpstartObjc1Homework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JumpstartObjc1Homework-Prefix.pch"; sourceTree = "<group>"; };
 		D0CFB93F189D68D600C0617B /* JumpstartObjc1Homework.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JumpstartObjc1Homework.1; sourceTree = "<group>"; };
+		D0CFB946189D694700C0617B /* VehicleDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleDataManager.h; sourceTree = "<group>"; };
+		D0CFB947189D694700C0617B /* VehicleDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				D0CFB93B189D68D600C0617B /* main.m */,
+				D0CFB946189D694700C0617B /* VehicleDataManager.h */,
+				D0CFB947189D694700C0617B /* VehicleDataManager.m */,
 				D0CFB93F189D68D600C0617B /* JumpstartObjc1Homework.1 */,
 				D0CFB93D189D68D600C0617B /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CFB948189D694700C0617B /* VehicleDataManager.m in Sources */,
 				D0CFB93C189D68D600C0617B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
